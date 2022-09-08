@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    color: #FF5F00;
+    font-family: 'Sarabun', Arial, Helvetica, sans-serif ;
+}
+
+#customer-search-bar-container{
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Sarabun' Arial, Helvetica, sans-serif;
+}
+
+#customer-search-bar{
+    width: 600px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #FF5F00;  
+    font-size: 22px;
+    outline: none;  
+    padding-left: 20px;
+}
+#customer-search-bar::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+input::placeholder{
+    font-size: 20px;
+    font-family: 'Inter'; 
+    color: #CCCCCC;
+}
+
+#search-bar-title{
+    margin-bottom: 50px;
+}
+table{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+td{
+    vertical-align: middle;
+    padding: 0.5em;
+    background-color: #F4F6F9;
+    color: #000000;
+}
+
