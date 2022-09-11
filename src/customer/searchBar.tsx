@@ -16,7 +16,6 @@ const SearchBar = ()=>{
             headers:{
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
-                // 'Authorization': 'Basic '+btoa('username:password'),
                 'Authorization': 'Basic bWFuYWdlcjptYW5hZ2VyUGFzcw== ',
                 "Access-Control-Allow-Origin": "*",
             },
